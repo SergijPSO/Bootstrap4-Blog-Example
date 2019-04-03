@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adrenaline Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="blog-style.css">
+</head>
+<body>
+    <img class="img-responsive" width=100% src="./images/panoram.jpg" alt="panorama">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <img class="img-responsive" width=50px  hegiht=50px src="./images/logo.png" alt="panorama">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#first_one" aria-controls="first_one"
+     aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+    <div class="collapse navbar-collapse" id="first_one">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="second_punct" data-toggle="dropdown" aria-haspopup="true" 
+                aria-expanded="false">Winter</a>
+                <div class="dropdown-menu" aria-labelledby="second_punct">
+                    <a class="dropdown-item" href="#">Snowboard</a>
+                    <a class="dropdown-item" href="#">Ski</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="second_punct" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">Bike</a>
+                <div class="dropdown-menu" aria-labelledby="second_punct">
+                    <a class="dropdown-item" href="#">Street</a>
+                    <a class="dropdown-item" href="#">Dirt Jumping</a>
+                    <a class="dropdown-item" href="#">Down Hill</a>
+                    <a class="dropdown-item" href="#">Free ride</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input type="text" placeholder="Search" class="form-control mr-sm-2">
+            <button type="submit" class="btn btn-outline-success my-2 mi-sm-0">Submit</button>
+        </form>
+    </div>
+</nav>
+<main role="main" class="container">
+    <br /> <br />
+    <div class="row">
+        <div class="col-md-8">
+            <img class="img-responsive" width=100% src="./images/freeride.jpg" alt="free ride">
+        </div>
+        <div class="col-md-4">
+            <br />
+            <span class="main-article-category">Free Ride</span>
+            <br />
+            <span class="main-article-title">Free Ride</span>
+            <br />
+            <span>by<span class="author-name">Dan Smith</span></span>
+            <p>Freeride is a discipline of mountain biking closely related to downhill biking and dirt jumping focused on tricks,
+            style, and technical trail features. It is now recognized as one of the most popular disciplines within mountain
+            biking. The term freeriding was originally coined by snowboarders, meaning riding without a set course, goals or rules on
+            natural terrain. In mountain biking, it is riding trail with the most creative line possible that includes style,
+            amplitude, control, and speed. Many in the cycling industry suggest that the Laguna Rads were the first to freeride,
+            that is riding terrain that didn't already have an existing path.</p>
+        </div>
+    </div>
+    <br /> <br />
+    <span class="recent-articles">Ricent Articles</span>
+    <hr />
+    <div class="row">
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-responsive" width=100% src="./images/dh.jpg" alt="down hill">
+                </div>
+                <div class="col-md-8">
+                    <br />
+                    <span class="sub-main-article-date">MAR. 27, 2019</span>
+                    <br />
+                    <span class="sub-article-title">Down Hill</span>
+                    <br />
+                    <span class="sub-article-author">News<span class="author-name">Blog</span></span>
+                    <br />
+                    <span class="sub-article-category">Down Hill</span>
+                </div>
+            </div>
+            <hr/>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-responsive" width=100% src="./images/dirt.jpg" alt="dirt jumping">
+                </div>
+                <div class="col-md-8">
+                    <br />
+                    <span class="sub-main-article-date">MAR. 28, 2019</span>
+                    <br />
+                    <span class="sub-article-title">Dirt Jumping</span>
+                    <br />
+                    <span class="sub-article-author">News<span class="author-name">Blog</span></span>
+                    <br />
+                    <span class="sub-article-category">Dirt Jumping</span>
+                </div>
+            </div>                
+             <hr />
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-responsive" width=100% src="./images/street.jpg" alt="street">
+                    </div>
+                <div class="col-md-8">
+                    <br />
+                    <span class="sub-main-article-date">MAR. 30, 2019</span>
+                    <br />
+                    <span class="sub-article-title">Street</span>
+                    <br />
+                    <span class="sub-article-author">News<span class="author-name">Blog</span></span>
+                    <br />
+                    <span class="sub-article-category">Street</span>
+                </div>
+            </div>
+            <hr />
+
+            <div class="text-right"><span class="demo-link">More</span></div>
+        </div>
+
+        <div class="col-md-4">
+            <span class="sponsors">SPONSORS</span>
+            <br /> <br />
+            <img class="img-responsive" src="./images/original.png" width="330px"  alt="redbull">
+        </div>
+    </div>
+
+</main>
+
+
+<footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+    <div class="footer-copyright py-3 text-center">Copyright 2019: Adrenaline Blog</div>
+</footer>
+    
+<!-- Boot_strap_scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- Boot_strap_scripts -->
+</body>
+</html>
